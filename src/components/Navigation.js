@@ -11,7 +11,7 @@ export default function Navigation() {
             <Navbar.Collapse className="justify-content-end">
                 <Nav>
                     {/* LINKS GO IN HERE */}
-                
+                <Link to='/Resume' className='nav-link'>Resume</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
