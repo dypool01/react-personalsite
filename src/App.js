@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path='/'></Route>
+          <Route path='/' element={<Home />}></Route>
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Resume' element={<Resume />} />
         </Routes>
