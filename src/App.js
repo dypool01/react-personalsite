@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
+import Peers from './components/Peers/Peers';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Resume' element={<Resume />} />
+          <Route path='/Peers' element={<Peers />} />
         </Routes>
         <Footer />
       </Router>
