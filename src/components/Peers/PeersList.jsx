@@ -1,13 +1,25 @@
-// import '../../Images/Centriq_Classmates'
 import React from "react"
-import Peers from "./Peers"
+import Brittany from '../../Images/Centriq_Classmates/BDodd.jpg'
+import Casey from '../../Images/Centriq_Classmates/CaseyB.jpg'
+import Dawson from '../../Images/Centriq_Classmates/Dawson.png'
+import Devin from '../../Images/Centriq_Classmates/Devin_Kuhlman_Professional_Photo.jpg'
+import Jacquelyn from '../../Images/Centriq_Classmates/Jacquelyn.jpg'
+import John from '../../Images/Centriq_Classmates/JohnW.jpg'
+import Juno from '../../Images/Centriq_Classmates/Juno.jpg'
+import Kurtis from '../../Images/Centriq_Classmates/KurtisC.jpeg'
+import Matt from '../../Images/Centriq_Classmates/Matt.jpg'
+import Paige from '../../Images/Centriq_Classmates/PaigeS.jpg'
+import Sean from '../../Images/Centriq_Classmates/seancoyan1_websize.jpg'
+import Storm from '../../Images/Centriq_Classmates/StormA.jpg'
+import Tanner from '../../Images/Centriq_Classmates/TannerL.JPG'
+import Zach from '../../Images/Centriq_Classmates/ZB.jpg'
 
 export default function PeerList() {
 const peers = [
 {
         id: 1,
         name: 'Brittany Dodd',
-        image: 'src/Images/Centriq_Classmates/BDodd.jpg',
+        image: Brittany,
         personalSite: 'http://brittanydodd.net/',
         linkedIn: 'https://www.linkedin.com/in/brittany-dodd-230467249/',
         gitHub: 'https://github.com/brittdodd'
@@ -16,7 +28,7 @@ const peers = [
 {
         id: 2,
         name: 'Casey Brown',
-        image: 'src/Images/Centriq_Classmates/CaseyB.jpg',
+        image: Casey,
         personalSite: 'http://somethingcachey.com/',
         linkedIn: 'https://www.linkedin.com/in/CaseyBrownWD',
         gitHub: 'https://github.com/CaseyBrownWD'
@@ -25,7 +37,7 @@ const peers = [
 {
         id: 3,
         name: 'Dawson Meier',
-        image: 'src/Images/Centriq_Classmates/Dawson.png',
+        image: Dawson,
         personalSite: 'https://www.linkedin.com/in/dawson-meier-b9781a238/',
         linkedIn: 'https://www.linkedin.com/in/dawson-meier-b9781a238/',
         gitHub: 'https://github.com/dmeier12'
@@ -34,7 +46,7 @@ const peers = [
     {
         id: 4,
         name: 'Devin Kuhlman',
-        image: 'src/Images/Centriq_Classmates/Devin Kuhlman - Professional Photo.jpg',
+        image: Devin,
         personalSite: 'http://www.devinkuhlman.com/',
         linkedIn: 'https://www.linkedin.com/in/devin-kuhlman-9abb87222/',
         gitHub: 'https://github.com/DevinKuhlman'
@@ -43,7 +55,7 @@ const peers = [
     {
         id: 5,
         name: 'Jacquelyn Little',
-        image: 'src/Images/Centriq_Classmates/Jacquelyn.jpg',
+        image: Jacquelyn,
         personalSite: 'http://www.jacquelynlittle.com/',
         linkedIn: 'https://www.linkedin.com/in/jacquelyn-little-937497249',
         gitHub: 'http://github.com/Jacquelyn525'
@@ -52,7 +64,7 @@ const peers = [
     {
         id: 6,
         name: 'Johnathan Walls',
-        image: 'src/Images/Centriq_Classmates/JohnW.jpg',
+        image: John,
         personalSite: 'http://www.jpwalls.com/',
         linkedIn: 'https://www.linkedin.com/in/john-walls-0151b31b3/',
         gitHub: 'https://github.com/jpwalls08'
@@ -61,7 +73,7 @@ const peers = [
     {
         id: 7,
         name: 'Juno Lewis',
-        image: 'src/Images/Centriq_Classmates/Juno.jpg',
+        image: Juno,
         personalSite: 'http://www.jlewisinquiry.com/',
         linkedIn: 'https://www.linkedin.com/in/juno-lewis-825714247/',
         gitHub: 'https://github.com/Juno0311'
@@ -70,7 +82,7 @@ const peers = [
     {
         id: 8,
         name: 'Kurtis Caldwell',
-        image: 'src/Images/Centriq_Classmates/KurtisC.jpeg',
+        image: Kurtis,
         personalSite: 'http://www.kurtiscaldwell.com/',
         linkedIn: 'https://www.linkedin.com/in/kurtis-caldwell-b212bb24b/',
         gitHub: 'https://github.com/KCald86'
@@ -79,7 +91,7 @@ const peers = [
     {
         id: 9,
         name: 'Matthew Jennings',
-        image: 'src/Images/Centriq_Classmates/Matt.jpg',
+        image: Matt,
         personalSite: 'http://www.matthewjennings.net',
         linkedIn: 'https://www.linkedin.com/in/matt-jennings-9bb1061b2',
         gitHub: 'https://github.com/mejennings104'
@@ -88,7 +100,7 @@ const peers = [
     {
         id: 10,
         name: 'Paige Scott',
-        image: 'src/Images/Centriq_Classmates/PaigeS.jpg',
+        image: Paige,
         personalSite: 'http://www.readypaigeone.com/',
         linkedIn: 'https://www.linkedin.com/in/think-paige-scott',
         gitHub: 'https://github.com/paigepaige3'
@@ -97,7 +109,7 @@ const peers = [
     {
         id: 11,
         name: 'Sean Coyan',
-        image: 'src/Images/Centriq_Classmates/seancoyan1_websize.jpg',
+        image: Sean,
         personalSite: 'http://www.seancoyan.com/',
         linkedIn: 'https://www.linkedin.com/in/seancoyan/',
         gitHub: 'https://github.com/SeanCodes2'
@@ -106,7 +118,7 @@ const peers = [
     {
         id: 12,
         name: 'Storm Agnew',
-        image: 'src/Images/Centriq_Classmates/StormA.jpg',
+        image: Storm,
         personalSite: 'http://www.stormycoding.com/',
         linkedIn: 'https://www.linkedin.com/in/storm-agnew-88396224b/',
         gitHub: 'https://github.com/StormAgnew'
@@ -115,7 +127,7 @@ const peers = [
     {
         id: 13,
         name: 'Tanner Lampson',
-        image: 'src/Images/Centriq_Classmates/TannerL.JPG',
+        image: Tanner,
         personalSite: 'http://www.tannermatthew.dev/',
         linkedIn: 'https://www.linkedin.com/in/tanner-matthew-dev',
         gitHub: 'https://github.com/CyberTML'
@@ -124,14 +136,30 @@ const peers = [
     {
         id: 14,
         name: 'Zach Barkoviak',
-        image: 'src/Images/Centriq_Classmates/ZB.jpg',
+        image: Zach,
         personalSite: 'http://www.zachbarkoviak.com',
         linkedIn: 'https://www.linkedin.com/in/zachary-barkoviak-21b2b8249/',
         gitHub: 'https://github.com/ZachBarkoviak'
     }
 ]
- const peersList = peers.map(peer => (<h2>{peer.name}</h2>))
- return <div>{peersList}</div>
+ const peersList = peers.map(peer => (
+<>
+<div id="Peer-card">
+ <h2>{peer.name}</h2>
+ <img key={peer.id} src={peer.image} alt={peer.name}></img>
+<a href={peer.personalSite}>
+    <p>Personal Site</p>
+</a>
+<a href={peer.linkedIn}>
+    <p>LinkedIn</p>
+</a>
+<a href={peer.gitHub}>
+    <p>GitHub</p>
+</a>
+ </div>
+ </>
+ ))
+ return <ul>{peersList}</ul>
 
 
 }
