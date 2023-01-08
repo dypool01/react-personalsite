@@ -144,7 +144,7 @@ const peers = [
 ]
  const peersList = peers.map(peer => (
 <>
-<div id="Peer-card">
+<li id="Peer-card">
  <h2>{peer.name}</h2>
  <img key={peer.id} src={peer.image} alt={peer.name}></img>
 <a href={peer.personalSite}>
@@ -156,10 +156,8 @@ const peers = [
 <a href={peer.gitHub}>
     <p>GitHub</p>
 </a>
- </div>
+ </li>
  </>
  ))
  return <ul>{peersList}</ul>
-
-
 }

@@ -7,6 +7,7 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Peers from './components/Peers/Peers';
+import 'bootstrap'
 
 function App() {
   
