@@ -39,3 +39,9 @@ article.row {
 h1 {
     color: white;
 }
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 15vw;
+}

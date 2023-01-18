@@ -1,4 +1,6 @@
 import React from "react"
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 import Brittany from '../../Images/Centriq_Classmates/BDodd.jpg'
 import Casey from '../../Images/Centriq_Classmates/CaseyB.jpg'
 import Dawson from '../../Images/Centriq_Classmates/Dawson.png'
@@ -143,7 +145,7 @@ const peers = [
     }
 ]
  const peersList = peers.map(peer => (
-<>
+/* <>
 <div id="Peer-card">
  <h2>{peer.name}</h2>
  <img key={peer.id} src={peer.image} alt={peer.name}></img>
@@ -157,7 +159,31 @@ const peers = [
     <p>GitHub</p>
 </a>
  </div>
- </>
+ </> */
+
+
+        
+
+ <Card className='justify-content-center my-4' style={{ width: '25rem'}}>
+    <Card.Img variant="top" className="mt-3 " key={peer.id} src={peer.image} alt={peer.name} />
+    <Card.Body>
+        <Card.Title className='mb-3'>{peer.name}</Card.Title>
+        <Card.Link>
+        <Button variant='secondary' href={peer.personalSite}  target='_blank'>Personal Site</Button>
+        </Card.Link>
+        <Card.Link>
+        <Button variant='secondary' href={peer.linkedIn}  target='_blank'>LinkedIn</Button>
+        </Card.Link>
+        <Card.Link>
+        <Button variant='secondary' href={peer.gitHub}  target='_blank'>GitHub</Button>
+        </Card.Link>
+    </Card.Body>
+ </Card>
+
+ 
+
+
+
  ))
- return <article>{peersList}</article>
+ return <article id='peerList' class='row justify-content-center my-4'>{peersList}</article>
 }
