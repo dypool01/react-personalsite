@@ -46,7 +46,7 @@ export default function Languages() {
     const languagesList = languages.map(x => (
         
         
-            <div class='col-md-5'>
+            <div class='col-md-5 mb-4'>
                 <img key={x.id} src={x.image} alt={x.language}></img>
                     <h2>{x.language}</h2>
                     <p>{x.description}</p>

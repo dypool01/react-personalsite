@@ -15,17 +15,17 @@ export default function Frameworks() {
         id: 2,
         framework: 'Model View Controller',
         image: MVC,
-        description: ''
+        description: 'A software architectural pattern commonly used for developing user interfaces that divide the related program logic into three interconnected elements.'
     },
     {
         id: 3,
         framework: 'React.js',
         image: Reactjs,
-        description: ''
+        description: 'A free and open-source front-end JavaScript library for building user interfaces based on UI components.'
     }
   ]
   const frameworkList = frameworks.map(x => (
-    <div class='col-md-5'>
+    <div class='col-md-5 mb-4'>
         <img key={x.id} src={x.image} alt={x.framework}></img>
         <h2>{x.framework}</h2>
         <p>{x.description}</p>

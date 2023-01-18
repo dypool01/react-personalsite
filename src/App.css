@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* background-image: linear-gradient(white, black); */
+  background-color: rgb(15, 15, 15);
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +39,4 @@
     transform: rotate(360deg);
   }
 }
+

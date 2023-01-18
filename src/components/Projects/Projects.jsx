@@ -4,7 +4,9 @@ import './Projects.css'
 
 function Projects() {
     return (
+        <section>
         <ProjectList />
+        </section>
     )
 }
 
