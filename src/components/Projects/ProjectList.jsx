@@ -47,19 +47,25 @@ export function ProjectList() {
             label:'Centriq Project',
             projName: 'Capstone',
             image: Capstone,
-            tech: '',
+            tech: 'C#, MVC, AJAX',
             description: ''
         }
     ]
     const projectList = projects.map(project => (
       
-        <Card style={{ width: '18rem'}}>
+        <Card class='justify-content-center p-3' style={{ width: '18rem'}}>
             <Card.Img variant='top' key={project.id} src={project.image} alt={project.projName} />
             <Card.Body>
                 <Card.Title>{project.projName}</Card.Title>
+                <Card.Text>
+                Tech Used: {project.tech}
+                </Card.Text>
+                <Card.Text>
+                    {project.description}
+                </Card.Text>
             </Card.Body>
         </Card>
         
     ))
-    return <article class='row justify-content-center'>{projectList}</article>
+    return <article id='Projects' class='row col-md-5 justify-content-center'>{projectList}</article>
 }

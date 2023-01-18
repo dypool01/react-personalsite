@@ -19,7 +19,8 @@ export default function Home() {
         </section>
         
 
-        <div id='Frameworks'>
+        <div id='Frameworks' class='mb-5'>
+            <h1 class='mb-4'>Frameworks/Design Architectures</h1>
             <Frameworks />
         </div>
         </>
