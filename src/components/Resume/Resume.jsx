@@ -13,7 +13,7 @@ export default function Resume() {
     return (
 
         <>
-        <h2>Resume</h2>
+        <h2 class='my-3'>Resume</h2>
 
         
 
@@ -22,16 +22,20 @@ export default function Resume() {
                 Resume Download
             </a>
         </button>} */}
-
+    <div class='my-3'>
         { <DocViewer documents={docs} initialActiveDocument={docs[1]} 
         pluginRenderers={DocViewerRenderers} 
         config={{
             header: {
                 disableFileName:true
   
-            },}}
+            },
+            pdfZoom: {
+                defaultZoom: 1
+            },
+            }}
             /> }
-
+    </div>
             
         </>
         
