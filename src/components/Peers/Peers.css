@@ -1,5 +1,19 @@
-img {
-    height: 15vh;
+.card img {
+    height: 20vw;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border: 5px solid black;
+    /* background-color: rgb(26, 29, 33); */
+}
+
+div.card-title.h5 {
+    color: black;
+}
+
+.card {
+    margin: auto;
+}
+
+div.justify-content-center.my-4.card {
+    background-color: silver;
 }
