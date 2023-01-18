@@ -5,6 +5,7 @@ import './Projects.css'
 function Projects() {
     return (
         <section>
+            <h1 class='mt-4'>Portfolio Projects</h1>
         <ProjectList />
         </section>
     )
