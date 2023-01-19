@@ -14,13 +14,13 @@ export default function Home() {
             
         
         <section id='Languages'>
-            <h1 class='mb-4'>Programming Languages</h1>       
+            <h1 class='mb-5'>Programming Languages</h1>       
             <Languages />          
         </section>
         
 
-        <div id='Frameworks' class='mb-5'>
-            <h1 class='mb-4'>Frameworks/Design Architectures</h1>
+        <div id='Frameworks' class='mb-4'>
+            <h1 class='mb-5'>Frameworks/Design Architectures</h1>
             <Frameworks />
         </div>
         </>
