@@ -17,3 +17,13 @@ div.card-title.h5 {
 div.justify-content-center.my-4.card {
     background-color: whitesmoke;
 }
+
+a#personalSite.btn {
+    background-color: green;
+    border-color: green;
+}
+
+a#gitHub.btn {
+    background-color: purple;
+    border-color: purple;
+}
