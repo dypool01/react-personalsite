@@ -2,8 +2,8 @@ article#Projects {
     margin: auto;
 }
 
-img.card-img-top {
-    height: 20vw;
+img#projectList.card-img-top.mt-3 {
+    height: 15vw;
     width: 100%;
     object-fit: cover;
     /* background-color: rgb(26, 29, 33); */
@@ -21,4 +21,8 @@ div.card {
 
 p.card-text {
     color: black;
+}
+
+a#projectList.btn {
+    background-color: purple;
 }

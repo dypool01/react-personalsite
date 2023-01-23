@@ -169,13 +169,13 @@ const peers = [
     <Card.Body>
         <Card.Title className='mb-3'>{peer.name}</Card.Title>
         <Card.Link>
-        <Button variant='secondary' href={peer.personalSite}  target='_blank'>Personal Site</Button>
+        <Button id="personalSite" href={peer.personalSite}  target='_blank'>Personal Site</Button>
         </Card.Link>
         <Card.Link>
-        <Button variant='secondary' href={peer.linkedIn}  target='_blank'>LinkedIn</Button>
+        <Button id="linkedIn" href={peer.linkedIn}  target='_blank'>LinkedIn</Button>
         </Card.Link>
         <Card.Link>
-        <Button variant='secondary' href={peer.gitHub}  target='_blank'>GitHub</Button>
+        <Button id="gitHub" href={peer.gitHub}  target='_blank'>GitHub</Button>
         </Card.Link>
     </Card.Body>
  </Card>
