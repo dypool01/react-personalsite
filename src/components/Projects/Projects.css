@@ -3,7 +3,7 @@ article#Projects {
 }
 
 img#projectList.card-img-top.mt-3 {
-    height: 15vw;
+    height: 10vw;
     width: 100%;
     object-fit: cover;
     /* background-color: rgb(26, 29, 33); */
@@ -23,6 +23,10 @@ p.card-text {
     color: black;
 }
 
-a#projectList.btn {
+a#projectList.GitHub.btn {
     background-color: purple;
+}
+
+a#projectList.Website.btn {
+    background-color: goldenrod;
 }

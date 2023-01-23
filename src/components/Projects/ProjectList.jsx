@@ -76,7 +76,7 @@ export function ProjectList() {
         <Card.Text>{props.tech}</Card.Text>
         <Card.Text>{props.description}</Card.Text>
           <Card.Link>
-            <Button id="projectList" href={props.website} target="_blank">
+            <Button id="projectList" className={props.id === 5 ? 'Website' : 'GitHub'} href={props.website} target="_blank">
               <div>
                 {props.id === 5 ? 'Website' : 'GitHub'}
               </div>
