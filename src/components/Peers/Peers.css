@@ -3,7 +3,17 @@
     width: 100%;
     object-fit: cover;
     border: 5px solid black;
+    border-radius: 5px;
     /* background-color: rgb(26, 29, 33); */
+}
+
+@media (max-width: 360px) {
+    .card img {
+    height: 80vw;
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid black;
+    }
 }
 
 div.card-title.h5 {
