@@ -3,3 +3,11 @@ div#react-doc-viewer {
     height: 40vw;
     margin: auto;
 }
+
+@media (max-width: 360px) {
+    div#react-doc-viewer {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    }
+}
