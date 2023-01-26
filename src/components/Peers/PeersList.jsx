@@ -164,8 +164,8 @@ const peers = [
 
         
 
- <Card className='justify-content-center my-4' style={{ width: '25rem'}}>
-    <Card.Img variant="top" className="mt-3 " key={peer.id} src={peer.image} alt={peer.name} />
+ <Card className='justify-content-center my-4'>
+    <Card.Img id="peerImg" variant="top" className="mt-3 " key={peer.id} src={peer.image} alt={peer.name} />
     <Card.Body>
         <Card.Title className='mb-3'>{peer.name}</Card.Title>
         <Card.Link>

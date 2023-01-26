@@ -1,4 +1,4 @@
-.card img {
+img#peerImg.card-img-top.mt-3 {
     height: 20vw;
     width: 100%;
     object-fit: cover;
@@ -7,25 +7,16 @@
     /* background-color: rgb(26, 29, 33); */
 }
 
-@media (max-width: 360px) {
-    .card img {
-    height: 80vw;
-    width: 100%;
-    object-fit: cover;
-    border: 5px solid black;
-    }
-}
 
 div.card-title.h5 {
     color: black;
 }
 
-.card {
-    margin: auto;
-}
-
 div.justify-content-center.my-4.card {
     background-color: whitesmoke;
+    margin: 10px 10px;
+        padding: 10px;
+        width: 25%;
 }
 
 a#personalSite.btn {
@@ -36,4 +27,41 @@ a#personalSite.btn {
 a#gitHub.btn {
     background-color: purple;
     border-color: purple;
+}
+
+@media (max-width: 360px) {
+    img#peerImg.card-img-top.mt-3 {
+    height: 80vw;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0px !important;
+    border: 5px solid black;
+    }
+}
+
+@media (max-width: 360px) {
+    div.justify-content-center.my-4.card {
+        margin: 0px;
+        padding: 10px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px) {
+    article#peerList {
+        margin: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    a#linkedIn.btn.btn-primary {
+        padding: 6px 23px;
+    }
+}
+
+@media (max-width: 360px) {
+    a#gitHub.btn {
+        margin-top: 10px;
+        margin-right: 10px
+    }
 }

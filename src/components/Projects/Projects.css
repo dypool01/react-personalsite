@@ -3,9 +3,11 @@ article#Projects {
 }
 
 img#projectList.card-img-top.mt-3 {
-    height: 10vw;
+    height: 18vw;
     width: 100%;
     object-fit: cover;
+    border: 5px solid black;
+    border-radius: 5px;
     /* background-color: rgb(26, 29, 33); */
 }
 
@@ -21,6 +23,7 @@ img#projectList.card-img-top.mt-3 {
     height: 80vw;
     width: 100%;
     object-fit: cover;
+    
     }
 }
 
