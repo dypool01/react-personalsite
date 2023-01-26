@@ -25,6 +25,39 @@
     color: black;
 }
 
+
+
+/* Language Gallery */
+
+article #language-gallery {
+    display: grid;
+}
+
+article.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+}
+
+img#languageImg {
+    object-fit: contain;
+    width: 100%;
+    height: 15vw;
+}
+
+img#frameworkImg {
+    object-fit: contain;
+    width: 100%;
+    height: 15vw;
+}
+
+button#contactModal.btn.btn {
+    margin-bottom: 1em;
+}
+
 @media (max-width: 360px) {
     #hero {
         background-image: url("../../Images/WayneGraduation.jpg");
@@ -54,23 +87,8 @@
     }
 }
 
-/* Language Gallery */
-
-article #language-gallery {
-    display: grid;
-}
-
-article.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1 {
-    color: white;
-}
-
-img {
-    object-fit: contain;
-    width: 100%;
-    height: 15vw;
-}
+/* @media (max-width: 360px) {
+    button#contactModal.btn.btn {
+        margin-bottom: 3%;
+    }
+} */

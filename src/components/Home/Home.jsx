@@ -2,17 +2,22 @@ import React from "react";
 import './Home.css';
 import Languages from "./Languages";
 import Frameworks from "./Frameworks";
+import { ContactModal } from "./ContactModal";
 
 
 
 export default function Home() {
+
     return (
         <>
         <div id='hero'>
             <h3>Dylan Poole</h3>
         </div>
             
-        
+        <div>
+            <ContactModal />
+        </div>
+
         <section id='Languages'>
             <h1 class='mb-5'>Programming Languages</h1>       
             <Languages />          

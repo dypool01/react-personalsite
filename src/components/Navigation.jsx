@@ -13,7 +13,6 @@ export default function Navigation() {
                     {/* LINKS GO IN HERE */}
                 <Link to='/' className="nav-link">Home</Link>
                 <Link to='/Resume' className='nav-link'>Resume</Link>
-                <Link to='/Contact' className='nav-link'>Contact</Link>
                 <Link to='/Peers' className='nav-link'>Peers</Link>
                 <Link to='/Projects' className='nav-link'>Projects</Link>
                 </Nav>
