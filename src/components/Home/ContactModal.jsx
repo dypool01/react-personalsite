@@ -4,21 +4,36 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import './ContactModal.css'
 
+
+
 export function ContactModal() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
+    
     const handleShow = () => setShow(true);
 
-    const form = useRef();
+
+    const form = useRef(null);
+
+    const [version, setVersion] = useState(0);
+
+    function handleReset() {
+      setVersion(version + 1);
+    }
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+
+
     emailjs.sendForm('react_21534!', 'contact_template_11111', form.current, 'Zfo1sVh1Vybzt8Hot')
       .then((result) => {
-          console.log(result.text);
+        alert('Message sent successfully!')
+          console.log(result.text)
+          handleReset();
       }, (error) => {
+        alert(JSON.stringify(error))
           console.log(error.text);
       });
   };
@@ -34,14 +49,14 @@ export function ContactModal() {
                 <Modal.Title>Contact Form</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-            <form ref={form} onSubmit={sendEmail}>
+            <form key={version} ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send"/>
     </form>
             </Modal.Body>
             <Modal.Footer>
