@@ -6,6 +6,7 @@ import './ContactModal.css'
 
 
 
+
 export function ContactModal() {
     const [show, setShow] = useState(false);
 
@@ -26,8 +27,9 @@ export function ContactModal() {
     e.preventDefault();
 
 
+    //in order for process.env to work, variables must start with REACT_APP both where they are being used and in the .env
 
-    emailjs.sendForm('react_21534!', 'contact_template_11111', form.current, 'Zfo1sVh1Vybzt8Hot')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
         alert('Message sent successfully!')
           console.log(result.text)
