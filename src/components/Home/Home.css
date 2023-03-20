@@ -1,8 +1,8 @@
 
 
 /* Hero Section */
-#hero {
-    background-image: url("../../Images/WayneGraduation.jpg");
+/* #hero {
+     background-image: url("../../Images/WayneGraduation.jpg"); 
     display: block;
     height: 100vh;
     position: relative;
@@ -10,12 +10,19 @@
     background-repeat: no-repeat;
     background-size: 35%;
     background-position: center;
+    z-index: 3;
+} */
+
+#hero img#aboutImg {
+   object-fit: contain;
+    height: auto;
+    width: 90%;
 }
 
 #hero h3 {
     display: inline-block;
     background-color: rgba(255, 255, 255, .3);
-    width: 35%;
+    width: 30%;
     position: relative;
     top: 60%;
     -webkit-transform: translateY(-60%);
@@ -58,7 +65,7 @@ button#contactModal.btn.btn {
     margin-bottom: 1em;
 }
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
     #hero {
         background-image: url("../../Images/WayneGraduation.jpg");
     display: block;
@@ -69,7 +76,15 @@ button#contactModal.btn.btn {
     background-size: 100%;
     background-position: center;
     }
-}
+} */
+
+/* @media (max-width: 360px) {
+    #hero img#aboutImg {
+    object-fit: contain;
+    height: 100vw;
+    width: 100px;
+    }
+} */
 
 @media (max-width: 360px) {
     #hero h3 {
