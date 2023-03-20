@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import './Home.css';
 import Languages from "./Languages";
 import Frameworks from "./Frameworks";
 import { ContactModal } from "./ContactModal";
-
-
+import About from "./About";
 
 export default function Home() {
 
@@ -12,9 +11,12 @@ export default function Home() {
 
     return (
         <>
-        <div id='hero'>
-            <h3>Dylan Poole</h3>
+        
+        <section id='About'> 
+        <div id='hero' class='row align-items-center mt-4 mb-2 mx-4'>
+            <About />
         </div>
+        </section>
             
 
         <section id='Languages'>
@@ -31,6 +33,7 @@ export default function Home() {
         <div>
             <ContactModal/>
         </div>
+        
         </>
     )
 }
