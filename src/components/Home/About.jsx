@@ -24,7 +24,7 @@ export default function About() {
 
     <section id="About-Text" class="col content-center">
             <h1>
-                About Me: potato
+                About Me:
             </h1>
 
             <p>
