@@ -27,6 +27,7 @@ export function ProjectList() {
       image: StoreFront,
       tech: "MVC",
       website: "https://github.com/dypool01/StoreFront-MVC-",
+      demo: "http://storefront.dylanpoole.com",
       description:
         "A storefront application at first made static using HTML and later converted to MVC. Includes a functioning contact form, as well as product filters. Sells fantasy themed weapons and armor mostly from the Final Fantasy series.",
     },
@@ -75,13 +76,26 @@ export function ProjectList() {
         <Card.Title>{props.projName}</Card.Title>
         <Card.Text>{props.tech}</Card.Text>
         <Card.Text>{props.description}</Card.Text>
-          <Card.Link>
-            <Button id="projectList" className={props.id === 5 ? 'Website' : 'GitHub'} href={props.website} target="_blank">
-              <div>
-                {props.id === 5 ? 'Website' : 'GitHub'}
-              </div>
+        <Card.Link>
+          <Button
+            id="projectList"
+            className={props.id === 5 ? "Website" : "GitHub"}
+            href={props.website}
+            target="_blank"
+          >
+            <div>{props.id === 5 ? "Website" : "GitHub"}</div>
+          </Button>
+          {props.demo && (
+            <Button
+              id="projectList"
+              className={props.id}
+              href={props.demo}
+              target="_blank"
+            >
+              Demo
             </Button>
-          </Card.Link>
+          )}
+        </Card.Link>
         {/* <Card.Link>
                     <Button id='projectList' href={project.gitHub} target='_blank'>Github</Button>
                 </Card.Link>  */}
