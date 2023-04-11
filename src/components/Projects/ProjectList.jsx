@@ -27,7 +27,7 @@ export function ProjectList() {
       image: StoreFront,
       tech: "MVC",
       website: "https://github.com/dypool01/StoreFront-MVC-",
-      demo: "http://storefront.dylanpoole.com",
+      demo: "http://storefront-prod.us-east-1.elasticbeanstalk.com",
       description:
         "A storefront application at first made static using HTML and later converted to MVC. Includes a functioning contact form, as well as product filters. Sells fantasy themed weapons and armor mostly from the Final Fantasy series.",
     },
@@ -48,6 +48,7 @@ export function ProjectList() {
       image: SAT,
       tech: "C#, MVC",
       website: "https://github.com/dypool01/Hogwarts",
+      demo: "http://hogwarts.dylanpoole.com",
       description:
         "An application made in a group of two using Agile Scrum methodology, a relational database, as well as MVC (Model, View, Controller) architectural pattern.",
     },

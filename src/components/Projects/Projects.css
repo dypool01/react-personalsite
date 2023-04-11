@@ -25,6 +25,7 @@ img#projectList.card-img-top.mt-3 {
     object-fit: cover;
     
     }
+
 }
 
 div.card-title.h5 {
@@ -47,4 +48,9 @@ a#projectList.GitHub.btn {
 
 a#projectList.Website.btn {
     background-color: goldenrod;
+}
+
+a#projectList.btn {
+ background-color: green;
+ margin: 0 0 0 10px;
 }
