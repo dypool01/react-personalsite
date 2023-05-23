@@ -29,7 +29,6 @@ export default function About() {
 
             <p>
     I am a {age} year old living in Nebraska who graduated from Centriq Training's Full Stack Web Developer Course on {grad}. 
-    
             </p>
     </section>
 

@@ -48,7 +48,7 @@ export default function Languages() {
         
             <div class='col-md-5 mb-4'>
                 <img id='languageImg' key={x.id} src={x.image} alt={x.language}></img>
-                    <h2>{x.language}</h2>
+                    <h3>{x.language}</h3>
                     <p>{x.description}</p>
             </div>
         
