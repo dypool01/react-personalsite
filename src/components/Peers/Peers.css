@@ -29,7 +29,7 @@ a#gitHub.btn {
     border-color: purple;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     img#peerImg.card-img-top.mt-3 {
     height: 80vw;
     width: 100%;
@@ -39,7 +39,7 @@ a#gitHub.btn {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     div.justify-content-center.my-4.card {
         margin: 0px;
         padding: 10px;
@@ -47,19 +47,19 @@ a#gitHub.btn {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     article#peerList {
         margin: auto;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     a#linkedIn.btn.btn-primary {
         padding: 6px 23px;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     a#gitHub.btn {
         margin-top: 10px;
         margin-right: 10px

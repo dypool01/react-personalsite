@@ -16,7 +16,7 @@
 #hero img#aboutImg {
    object-fit: contain;
     height: auto;
-    width: 90%;
+    width: 50%;
 }
 
 #hero h3 {
@@ -45,9 +45,9 @@ article.row {
     flex-wrap: wrap;
 }
 
-h1 {
+/* h1 {
     color: white;
-}
+} */
 
 img#languageImg {
     object-fit: contain;

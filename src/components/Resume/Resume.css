@@ -4,7 +4,7 @@ div#react-doc-viewer {
     margin: auto;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     div#react-doc-viewer {
     height: 80vh;
     width: 90%;

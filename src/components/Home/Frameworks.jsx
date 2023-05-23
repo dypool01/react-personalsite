@@ -27,7 +27,7 @@ export default function Frameworks() {
   const frameworkList = frameworks.map(x => (
     <div class='col-md-5 mb-4'>
         <img id='frameworkImg' key={x.id} src={x.image} alt={x.framework}></img>
-        <h2>{x.framework}</h2>
+        <h3>{x.framework}</h3>
         <p>{x.description}</p>
     </div>
   ))

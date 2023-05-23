@@ -11,14 +11,14 @@ img#projectList.card-img-top.mt-3 {
     /* background-color: rgb(26, 29, 33); */
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     article#Projects {
         margin: auto;
         padding: 0px 10px 0px 10px
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     img#projectList.card-img-top.mt-3 {
     height: 80vw;
     width: 100%;
